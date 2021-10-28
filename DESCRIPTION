@@ -20,3 +20,5 @@ SystemRequirements:
     C++11,
     gmp,
     mpfr
+URL: https://github.com/dis-organization/insidecgal
+BugReports: https://github.com/dis-organization/insidecgal/issues
