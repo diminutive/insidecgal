@@ -1,0 +1,7 @@
+^insidecgal\.Rproj$
+^\.Rproj\.user$
+^configure.*$
+^src/Makevars$
+^README\.Rmd$
+^CODE_OF_CONDUCT\.md$
+^\.github$
