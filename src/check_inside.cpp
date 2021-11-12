@@ -40,3 +40,28 @@ integers point_in_polygon_cgal(doubles px, doubles py, doubles polyx, doubles po
   }
   return pip;
 }
+
+
+
+// list of matrix polygons matches POLYGON (or unlist(MULTIPOLYGON, recursive = F))
+[[cpp11::register]]
+list insidecgal_loop_mat(doubles xx, doubles yy, list lpxy) {
+  writable::list out;
+  for (int i = 0; i < lpxy.size(); i++)  {
+
+
+    writable::doubles polyx;
+    writable::doubles polyy;
+
+    cpp11::doubles_matrix<cpp11::by_column> mat = lpxy[i];
+    for (int j = 0; j < mat.nrow(); j++){
+     polyx.push_back(mat(j, 0));
+     polyy.push_back(mat(j, 1));
+    }
+
+
+    out.push_back(point_in_polygon_cgal(xx, yy, polyx, polyy));
+
+  }
+  return out;
+}

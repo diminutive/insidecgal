@@ -1,5 +1,9 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+<!-- badges: start -->
+
+[![R-CMD-check](https://github.com/diminutive/insidecgal/workflows/R-CMD-check/badge.svg)](https://github.com/diminutive/insidecgal/actions)
+<!-- badges: end -->
 
 # insidecgal
 

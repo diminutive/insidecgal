@@ -8,6 +8,14 @@
 \description{
 Point in Polygon with ('CGAL').
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/dis-organization/insidecgal}
+  \item Report bugs at \url{https://github.com/dis-organization/insidecgal/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Michael D. Sumner \email{mdsumner@gmail.com}
 

@@ -3,3 +3,7 @@
 point_in_polygon_cgal <- function(px, py, polyx, polyy) {
   .Call(`_insidecgal_point_in_polygon_cgal`, px, py, polyx, polyy)
 }
+
+insidecgal_loop_mat <- function(xx, yy, lpxy) {
+  .Call(`_insidecgal_insidecgal_loop_mat`, xx, yy, lpxy)
+}

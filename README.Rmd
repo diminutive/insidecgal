@@ -15,6 +15,11 @@ knitr::opts_chunk$set(
 )
 ```
 
+
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/diminutive/insidecgal/workflows/R-CMD-check/badge.svg)](https://github.com/diminutive/insidecgal/actions)
+<!-- badges: end -->
+  
 # insidecgal
 
 The goal of insidecgal is to provide fast point in polygon lookup with cgal.  
