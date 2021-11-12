@@ -22,3 +22,6 @@ SystemRequirements:
     mpfr
 URL: https://github.com/dis-organization/insidecgal
 BugReports: https://github.com/dis-organization/insidecgal/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
